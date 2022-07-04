@@ -1,0 +1,44 @@
+
+.list-body{
+    /* background-color:aquamarine; */
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+ul li{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+
+ul div{
+    background-color: grey;
+    margin-right: 3px;
+    padding: 5px 8px;
+}
+
+.id{
+    width: 20%;
+}
+
+.option{
+    width: 15%;
+}
+
+.list-header div{
+    color: white;
+}
+
+.choose{
+    width: 50px;
+    margin-right: 3px;
+}
+
+.list-item-odd div{
+    background-color: lightgray;
+}
+
+.list-item-even div{
+    background-color: rgb(236, 236, 236);
+}
+

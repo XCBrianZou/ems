@@ -1,0 +1,54 @@
+.body{
+    padding: 20px 15px;
+    border: 1px solid;
+    border-color: darkblue;
+    border-top-width: 0;
+}
+
+.selector{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.selector h1{
+    font-size: larger;
+    margin-right: 30px;
+}
+
+.approve{
+    position:absolute;
+    background-color: rgba(128, 128, 128, 0.854);
+    top: 5%;
+    left: 5%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp-container{
+    background-color: white;
+    /* position: inherit; */
+    width: 500px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn-approval{
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.btn-container{
+    float: inline-end;
+    margin-left: 90%;
+}
+
+.btn-container button{
+    margin-left: 10px;
+}
